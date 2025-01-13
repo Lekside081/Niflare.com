@@ -1,5 +1,5 @@
 <template>
-    <div class="flex justify-center mt-40">
+    <div class="flex justify-center mt-32">
         <div class="Changer basis-9/12 rounded-3xl py-20 -mb-48">
             <div class="text-center font-bold text-7xl">What are you waiting</div>
             <div class="text-center font-bold text-7xl">for?</div>

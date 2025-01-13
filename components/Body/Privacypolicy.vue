@@ -1,0 +1,71 @@
+<template>
+    <div class="bg-amber-50 p-10">
+        <div class="text-center py-10 font-bold text-5xl">Niflare Privacy Policy</div>
+        
+        <div class="mx-auto w-[70%]">
+        <div class="mt-6 text-gray-700 text-3xl text-center">Effective Date: 5/12025</div>
+        <div class="mt-6 text-gray-700 text-2xl">At TrendHunter, your privacy is a top priority. This Privacy Policy explains how we</div>
+        <div class="text-gray-700 text-2xl">collect, use, disclose, and protect your information when you use our website, app,</div>
+        <div class="text-gray-700 text-2xl">products, and services. By accessing or using our platform, you consent to the practices outlined in this policy.</div>
+
+        <div class="text-gray-700 text-2xl mt-14">1. Information We Collect</div>
+        <div class="text-gray-700 text-2xl">We only collect the information necessary to provide you with our services:</div>
+        <div class="text-gray-700 text-2xl mt-1">Personal Information:</div>
+        <div class="text-gray-700 text-2xl">Email Address: Required for account registration, login, and communication</div>
+        <div class="text-gray-700 text-2xl">Password: Used to secure your account.</div>
+        <div class="text-gray-700 text-2xl mt-1">Payment Information:</div>
+        <div class="text-gray-700 text-2xl">All payment processing is securely handled by third-party providers (Flutterwave</div>
+        <div class="text-gray-700 text-2xl">and Paystack). We do not store or process payment details.</div>
+        <div class="text-gray-700 text-2xl mt-1">Usage Data:</div>
+        <div class="text-gray-700 text-2xl">We may collect non-personal data about how you interact with our platform (e.g.,</div>
+        <div class="text-gray-700 text-2xl">device type, app version, and features accessed) to improve your experience.</div>
+        <div class="text-gray-700 text-2xl mt-4">2. How We Use Your Information</div>
+        <div class="text-gray-700 text-2xl mt-1">We use your information to:</div>
+        <div class="text-gray-700 text-2xl">Provide and manage your account.</div>
+        <div class="text-gray-700 text-2xl">Process your subscriptions and payments via third-party payment providers.</div>
+        <div class="text-gray-700 text-2xl">Communicate with you about updates, promotions, or issues with the platform.</div>
+        <div class="text-gray-700 text-2xl">Improve our services through usage analytics.</div>
+        <div class="text-gray-700 text-2xl mt-4">3. How We Protect Your Information</div>
+        <div class="text-gray-700 text-2xl">We implement industry-standard security measures to protect your personal</div>
+        <div class="text-gray-700 text-2xl">information, including:</div>
+        <div class="text-gray-700 text-2xl">Secure servers and encrypted data storage.</div>
+        <div class="text-gray-700 text-2xl">Restricted access to personal information.</div>
+        <div class="text-gray-700 text-2xl">Regular monitoring for potential vulnerabilities or breaches.</div>
+        <div class="text-gray-700 text-2xl mt-4">4. Sharing of Information</div>
+        <div class="text-gray-700 text-2xl">We do not sell, rent, or trade your personal information. However, we may share</div>
+        <div class="text-gray-700 text-2xl">your data with:</div>
+        <div class="text-gray-700 text-2xl">Payment Processors: Flutterwave and Paystack, for secure subscription payments.</div>
+        <div class="text-gray-700 text-2xl">Legal Authorities: If required to comply with applicable laws, regulations, or legal processes.</div>
+        <div class="text-gray-700 text-2xl mt-4">5. Account Deletion</div>
+        <div class="text-gray-700 text-2xl">You can delete your account at any time through the app. Deleting your account will:</div>
+        <div class="text-gray-700 text-2xl">Permanently erase your email and password from our system.</div>
+        <div class="text-gray-700 text-2xl">Cancel any active subscriptions associated with your account.</div>
+        <div class="text-gray-700 text-2xl mt-2">Please note: Subscription cancellations must also be managed with the third-party</div>
+        <div class="text-gray-700 text-2xl">payment processor (Flutterwave/Paystack).</div>
+        <div class="text-gray-700 text-2xl mt-4">6. Cookies and Tracking Technologies</div>
+        <div class="text-gray-700 text-2xl">We do not use cookies or tracking technologies for user behavior. However, third-</div>
+        <div class="text-gray-700 text-2xl">party services such as payment processors may use their own tracking mechanisms </div>
+        <div class="text-gray-700 text-2xl">as per their policies.</div>
+        <div class="text-gray-700 text-2xl mt-4">7. Third-Party Links</div>
+        <div class="text-gray-700 text-2xl">Our platform may contain links to third-party websites or services. We are not</div>
+        <div class="text-gray-700 text-2xl">responsible for the privacy practices or content of these external sites.</div>
+        <div class="text-gray-700 text-2xl mt-4">8. Children’s Privacy</div>
+        <div class="text-gray-700 text-2xl">Our platform is not intended for individuals under 18. We do not knowingly collect</div>
+        <div class="text-gray-700 text-2xl">information from minors.</div>
+        <div class="text-gray-700 text-2xl mt-4">9. Your Rights</div>
+        <div class="text-gray-700 text-2xl">As a user, you have the right to:</div>
+        <div class="text-gray-700 text-2xl">Access and review the personal data we have about you.</div>
+        <div class="text-gray-700 text-2xl">Request corrections to your personal data.</div>
+        <div class="text-gray-700 text-2xl">Delete your account and data.</div>
+        <div class="text-gray-700 text-2xl">To exercise any of these rights, please contact us at the email address provided below.</div>
+        <div class="text-gray-700 text-2xl mt-4">10. Changes to This Policy</div>
+        <div class="text-gray-700 text-2xl">We may update this Privacy Policy to reflect changes in our practices or services.</div>
+        <div class="text-gray-700 text-2xl">Any updates will be posted on this page, and your continued use constitutes acceptance of the revised policy.</div>
+        <div class="text-gray-700 text-2xl mt-4">11. Contact Information</div>
+        <div class="text-gray-700 text-2xl">For any questions or concerns regarding this Privacy Policy, please contact us:</div>
+        <div class="text-gray-700 text-2xl">Email: contact@niflare.com</div>
+        <div class="text-gray-700 text-2xl">By using TrendHunter, you acknowledge that you have read, understood, and</div>
+        <div class="text-gray-700 text-2xl">agreed to this Privacy Policy</div>
+        </div>
+    </div>
+</template>

@@ -28,6 +28,18 @@
                 </NuxtLink>
             </div>
 
+            <div class="basis-1/4 text-white py-3">
+                <NuxtLink to="/Termsofservice">
+                    <div>Terms of Service</div>
+                </NuxtLink>
+            </div>
+
+            <div class="basis-1/4 text-white py-3">
+                <NuxtLink to="/Privacypolicy">
+                    <div>Privacy Policy</div>
+                </NuxtLink>
+            </div>
+
             <div class="basis-1/2 flex justify-end">
                 <button class="bg-green-500 hover:bg-gray-50 font-bold py-3 px-5 rounded-full">
                     Download Course

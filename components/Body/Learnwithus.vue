@@ -2,7 +2,7 @@
     <div class="mt-4">
       <div class="w-full">
         <div class="flex justify-center">
-          <nuxtLink to="/Homepage">
+          <nuxtLink to="">
             <div
               id="learnwithus"
               class="h-16 w-48 sm:h-20 sm:w-56 md:h-24 md:w-64 text-center rounded-full bg-gray-300 flex items-center justify-center uppercase text-lg sm:text-xl md:text-3xl font-bold"
