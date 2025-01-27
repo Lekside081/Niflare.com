@@ -17,7 +17,7 @@
                 <p class="text-center mb-16">stunning websites and mobile apps tailored to your busine-ss needs.</p>
                 </div>
 
-                <div class="flex justify-between space-x-10 mt-8 mx-auto w-[65%]">
+                <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6 mt-8 mx-auto w-[65%]">
                     <div class="basis-1/2">
                         <div class="ml-5">
                             <svg class="w-[40px] h-[40px] text-gray-800 dark:text-white" aria-hidden="true"
@@ -160,7 +160,7 @@
                         processes</p>
                     <p class="text-center mb-16 text-white">and improve efficiency.</p>
 
-                    <div class="flex space-x-10 mt-8 ml-4 mr-4">
+                    <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6 mt-6 ml-4 mr-4">
                         <div class="basis-1/2 bg-white rounded-2xl py-2">
                             <div class="ml-5">
                                 <svg class="w-[40px] h-[40px] text-gray-800 dark:text-white" aria-hidden="true"
@@ -267,7 +267,7 @@
                     <p class="text-center">Success in trading requires strategy. We develop advanced trading strategies</p>
                     <p class="text-center mb-16">and custom indicators to give you a competitive edge.</p>
 
-                    <div class="flex space-x-10 mt-8 ml-4 mr-4">
+                    <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6 mt-6 ml-4 mr-4">
                         <div class="basis-1/2 bg-white rounded-2xl py-2">
                             <div class="ml-5">
                                 <svg class="w-[40px] h-[40px] text-gray-800 dark:text-white" aria-hidden="true"

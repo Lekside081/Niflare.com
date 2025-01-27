@@ -1,6 +1,6 @@
 ﻿<template>
-    <div class="Navbar z-10">
-        <div class="flex flex-row justify-between rounded-full bg-black mt-1.5 py-4 px-4">
+    <div class="Navbar z-10 px-6">
+        <div class="flex items-center justify-between lg:px-10 rounded-full bg-black mt-1.5 py-4">
             <div class="basis-1/2 flex text-white py-3 text-2xl space-x-1">
                 <NuxtLink to="/">
                 <!-- <p class="font-bold">Niflare</p> -->
@@ -18,29 +18,29 @@
 
             <div class="basis-1/4 text-white py-3">
                 <NuxtLink to="#ourservice">
-                <p>Our Service</p>
+                <p>Service</p>
                 </NuxtLink>
             </div>
 
             <div class="basis-1/4 text-white py-3">
                 <NuxtLink to="#learnwithus">
-                    <div>Learn With Us</div>
+                    <div>Learn</div>
                 </NuxtLink>
             </div>
 
-            <div class="basis-1/4 text-white py-3">
+            <div class="hidden sm:flex basis-1/4 text-white py-3">
                 <NuxtLink to="/Termsofservice">
                     <div>Terms of Service</div>
                 </NuxtLink>
             </div>
 
-            <div class="basis-1/4 text-white py-3">
+            <div class="hidden sm:flex basis-1/4 text-white py-3">
                 <NuxtLink to="/Privacypolicy">
                     <div>Privacy Policy</div>
                 </NuxtLink>
             </div>
 
-            <div class="basis-1/2 flex justify-end">
+            <div class="hidden md:flex basis-1/2 justify-end">
                 <button class="bg-green-500 hover:bg-gray-50 font-bold py-3 px-5 rounded-full">
                     Download Course
                 </button>
@@ -57,7 +57,6 @@
     top: 0;
     left: 0;
     width: 100%;
-    padding: 0px 140px 0px 140px;
 }
 </style>
 

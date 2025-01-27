@@ -1,5 +1,5 @@
 <template>
-    <div class="flex justify-center mt-32">
+    <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6 justify-center mt-32">
         <div class="Changer basis-9/12 rounded-3xl py-20 -mb-48">
             <div class="text-center font-bold text-7xl">What are you waiting</div>
             <div class="text-center font-bold text-7xl">for?</div>
@@ -20,14 +20,14 @@
     </div>
 
     <div class="Changera2 flex rounded-t-3xl">
-        <div class="mt-72 px-20 mx-auto w-[90%]">
+        <div class="mt-72 px-20">
 
             <footer class="text-white">
-                <div class="container mx-auto grid grid-cols-6 md:grid-cols-6">
-                    <!-- Browse Section -->
-                    <div class="col-span-2">
+                <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6 place-items-center mx-auto w-[95%]">
+
+                    <div class="basis-1/2">
                         <div class="flex space-x-6">
-                            <div class="">
+                            <div>
                             <img src="/home-hero-img.png" alt="Logo" class="w-12 h-12 mb-4">
                             </div>
                             <h3 class="text-lg font-semibold">Browse
@@ -41,18 +41,18 @@
                     </h3>
                 </div>
                     </div>
-                    <!-- Company Section -->
-                    <div class="col-span-1">
-                        <h3 class="text-lg font-semibold  ml-6 mb-4">Company</h3>
+
+                    <div class="basis-1/3">
+                        <h3 class="text-lg font-semibold mb-4">Company</h3>
                         <ul class="space-y-2">
-                            <li><a href="#niflare" class="hover:underline  ml-6">Niflare</a></li>
-                            <li><a href="#ourservice" class="hover:underline ml-6">Our Service</a></li>
-                            <li><a href="#learnwithus" class="hover:underline ml-6">Learn With Us</a></li>
-                            <li><a href="#" class="hover:underline ml-6">Download Course</a></li>
+                            <li><a href="#niflare" class="hover:underline">Niflare</a></li>
+                            <li><a href="#ourservice" class="hover:underline">Our Service</a></li>
+                            <li><a href="#learnwithus" class="hover:underline">Learn With Us</a></li>
+                            <li><a href="#" class="hover:underline">Download Course</a></li>
                         </ul>
                     </div>
-                    <!-- Follow and Newsletter Section -->
-                    <div class="col-span-1 ml-6">
+                    
+                    <div class="basis-1/3">
                         <h3 class="text-lg font-semibold mb-4">Follow</h3>
                         <ul class="space-y-2">
                             <li><a href="#" class="hover:underline">LinkedIn</a></li>
@@ -61,26 +61,29 @@
                             <li><a href="#" class="hover:underline">Facebook</a></li>
                         </ul>
                     </div>
-                    <div class="col-span-2">
-                        <h3 class="text-lg font-semibold mb-2">Sign up to paticipate in our class today
+                    <div class="basis-1/2">
+                        <h3 class="text-lg font-semibold mb-6">Sign up to paticipate in our class today
                             <div class="mt-4">
-                            <input id="email" type="email" placeholder="Email address" class="bg-black w-[90%] border border-gray-100 rounded-full py-3 px-4 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-700">
+                            <input id="email" type="email" placeholder="Email address" class="bg-black w-[95%] border border-gray-100 rounded-full py-3 px-4 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-700">
                         </div>
                         </h3>
                     </div>
                 </div>
             </footer>
 
-            <div class="grid grid-cols-2 mt-14">
-                <div class="col-span-1 text-white">
-                    <div class="flex justify-between">
-                        <p>Privacy Policy</p>
-                        <p>Terms of Use</p>
-                        <p>Cookies Policies</p>
-                    </div>
-                </div>
-                <div class="col-span-1 text-white">
-                    <div class="flex justify-end">
+            <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6 mx-auto w-[95%] mt-14">
+
+                        <div class="basis-1/3 text-white">
+                            <p>Privacy Policy</p>
+                        </div>
+                        <div class="basis-1/3 text-white">
+                            <p>Terms of Use</p>
+                        </div>
+                        <div class="basis-1/3 text-white">
+                            <p>Cookies Policies</p>
+                        </div>
+                <div class="basis-1/2">
+                    <div class="flex justify-end text-white">
                         <p>All rights reserved © 2024 Changera</p>
                     </div>
                 </div>
@@ -89,7 +92,7 @@
             <hr class="border-t border-gray-600 mr-4 ml-4 py-2 mt-24 w-12/12" />
 
 
-            <p class="text-white text-lg mt-8">In today's digital era, having an online presence is crucial. We design and
+            <p class="text-white text-lg mt-8 text-center">In today's digital era, having an online presence is crucial. We design and
                 develope stunning websites and mobile apps </p>
             <p class="text-white text-lg text-center">tailored to your business needs.</p>
 

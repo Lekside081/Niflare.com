@@ -1,7 +1,7 @@
 <template>
     <div id="niflare" class="Simplify rounded-b-3xl sm:px-5">
-        <div class="flex flex-row mx-auto w-[90%]">
-            <div class="basis-1/2 mt-52">
+        <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6  mx-auto w-[90%] py-10">
+            <div class="basis-1/2 mt-28">
                 <div class="text-5xl font-bold"><span class="text-yellow-200">Innovative </span>Solutions</div>
                 <div class="text-6xl mt-6 font-bold">{{ title }}</div>
                 <div class="text-6xl mt-6 font-bold">{{ name }}</div>
@@ -19,7 +19,7 @@
                 </div>
             </div>
 
-            <div class="basis-1/2 mt-52">
+            <div class="basis-1/2 py-16">
                 <img :src="img">
             </div>
 
