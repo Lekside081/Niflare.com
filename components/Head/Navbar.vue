@@ -1,9 +1,9 @@
-<template>
+﻿<template>
     <div class="Navbar z-10">
         <div class="flex flex-row justify-between rounded-full bg-black mt-1.5 py-4 px-4">
             <div class="basis-1/2 flex text-white py-3 text-2xl space-x-1">
                 <NuxtLink to="/">
-                <p class="font-bold">Niflare</p>
+                <!-- <p class="font-bold">Niflare</p> -->
                 </NuxtLink>
                 <NuxtLink to="/">
                 <div><svg class="mt-1 w-[30px] h-[30px]  text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
