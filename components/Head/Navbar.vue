@@ -45,12 +45,36 @@
                     Download Course
                 </button>
             </div>
+             <!-- Mobile Menu Icon -->
+      <div class="lg:hidden">
+        <button @click="toggleMenu">
+          <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+      </div>
+
+            <!-- Mobile Menu Dropdown -->
+      <div v-if="isMenuOpen"
+        class="absolute top-full right-0 w-[27%] bg-white border-4 shadow-md md:hidden flex flex-col gap-2 px-2 py-1">
+        <a href="/Termsofservice" class="text-gray-700 hover:text-blue-600">Terms of Service</a>
+        <a href="/Privacypolicy" class="hover:text-blue-600">Privacy Policy</a>
+      </div>
 
         </div>
 
 
     </div>
 </template>
+<script setup>
+import { ref } from 'vue'
+const isMenuOpen = ref(false)
+const toggleMenu = () => {
+  isMenuOpen.value = !isMenuOpen.value
+}
+</script>
+
 <style>
 .Navbar {
     position: fixed;
@@ -59,4 +83,3 @@
     width: 100%;
 }
 </style>
-

@@ -9,17 +9,19 @@
                     </nuxtLink>
             </div>
             <div class="mt-10 sm:px-10">
-                <div class="mx-auto w-[65%]">
-                <p id="webdevelopment" class="text-center text-5xl font-bold mb-6">Web & App Development</p>
+                <div class="mx-auto md:w-[50%]">
+                <p id="webdevelopment" class="text-center text-5xl font-bold mb-6 hidden md:block">Web & App Development</p>
+                <p id="webdevelopment" class="text-center text-5xl font-bold mb-6 block md:hidden">Web & App</p>
+                <p class="text-center text-5xl font-bold mb-6 block md:hidden">Development</p>
                 <p class="text-center">In today’s digital era, having an online presence is crucial. Wedesign and
                     develop
                 </p>
                 <p class="text-center mb-16">stunning websites and mobile apps tailored to your busine-ss needs.</p>
                 </div>
 
-                <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6 mt-8 mx-auto w-[65%]">
+                <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6 mt-8 mx-auto w-[79%] md:w-[65%]">
                     <div class="basis-1/2">
-                        <div class="ml-5">
+                        <div class="ml-5 flex justify-center md:justify-start">
                             <svg class="w-[40px] h-[40px] text-gray-800 dark:text-white" aria-hidden="true"
                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -85,7 +87,7 @@
                     </div>
 
                     <div class="basis-1/2">
-                        <div class="ml-2">
+                        <div class="ml-5 flex justify-center md:justify-start">
                             <svg class="w-[40px] h-[40px] text-gray-800 dark:text-white" aria-hidden="true"
                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -113,7 +115,7 @@
                             </div>
                             <div class="">Scalable and secure solutions</div>
                         </div>
-                        <div class="ml-2">
+                        <div class="ml-5 flex justify-center md:justify-start">
                             <svg class="w-[40px] h-[40px] text-gray-800 dark:text-white" aria-hidden="true"
                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -155,15 +157,17 @@
                 </div>
 
                 <div class="mx-auto w-[80%] mt-20 bg-gray-800 py-6 rounded-3xl sm:px-10">
-                    <p id="softwaredevelopment" class="text-center text-5xl font-bold mb-6 text-white">Software Development</p>
+                    <p id="softwaredevelopment" class="text-center text-5xl font-bold mb-6 text-white hidden md:block">Software Development</p>
+                    <p id="softwaredevelopment" class="text-center text-5xl font-bold block md:hidden text-white">Software</p>
+                    <p id="softwaredevelopment" class="text-center text-5xl font-bold mb-6 text-white block md:hidden">Development</p>
                     <p class="text-center text-white">We provide bespoke software solutions to streamline your business
                         processes</p>
                     <p class="text-center mb-16 text-white">and improve efficiency.</p>
 
                     <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6 mt-6 ml-4 mr-4">
-                        <div class="basis-1/2 bg-white rounded-2xl py-2">
-                            <div class="ml-5">
-                                <svg class="w-[40px] h-[40px] text-gray-800 dark:text-white" aria-hidden="true"
+                        <div class="basis-1/2 bg-white rounded-2xl py-2 text-black">
+                            <div class="ml-5 flex justify-center md:justify-start">
+                                <svg class="w-[40px] h-[40px] text-black" aria-hidden="true"
                                     xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
                                     viewBox="0 0 24 24">
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -217,9 +221,9 @@
                             </div>
                         </div>
 
-                        <div class="basis-1/2 bg-white rounded-2xl py-2">
-                            <div class="ml-5">
-                                <svg class="w-[40px] h-[40px] text-gray-800 dark:text-white" aria-hidden="true"
+                        <div class="basis-1/2 bg-white rounded-2xl py-2 text-black">
+                            <div class="ml-5 flex justify-center md:justify-start">
+                                <svg class="w-[40px] h-[40px] text-black" aria-hidden="true"
                                     xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
                                     viewBox="0 0 24 24">
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -268,9 +272,9 @@
                     <p class="text-center mb-16">and custom indicators to give you a competitive edge.</p>
 
                     <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6 mt-6 ml-4 mr-4">
-                        <div class="basis-1/2 bg-white rounded-2xl py-2">
-                            <div class="ml-5">
-                                <svg class="w-[40px] h-[40px] text-gray-800 dark:text-white" aria-hidden="true"
+                        <div class="basis-1/2 bg-white rounded-2xl py-2 text-black">
+                            <div class="ml-5 flex justify-center md:justify-start">
+                                <svg class="w-[40px] h-[40px] text-black" aria-hidden="true"
                                     xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
                                     viewBox="0 0 24 24">
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -325,9 +329,9 @@
                             </div>
                         </div>
 
-                        <div class="basis-1/2 bg-white rounded-2xl py-2">
-                            <div class="ml-5">
-                                <svg class="w-[40px] h-[40px] text-gray-800 dark:text-white" aria-hidden="true"
+                        <div class="basis-1/2 bg-white rounded-2xl py-2 text-black">
+                            <div class="ml-5 flex justify-center md:justify-start">
+                                <svg class="w-[40px] h-[40px] text-black" aria-hidden="true"
                                     xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
                                     viewBox="0 0 24 24">
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"

@@ -1,6 +1,5 @@
 <template>
-    <div>
-        <HeadNavbarprivacypolicy/>
+    <div class="mt-10">
         <BodyPrivacypolicy/>
     </div>
 </template>
